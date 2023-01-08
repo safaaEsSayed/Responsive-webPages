@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task01</title>
+    <style>
+        nav{
+            background-color: rgb(205, 205, 205);
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        article{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        article section {
+            border: 2px solid black;
+            text-align: center;
+            width: 45%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            
+        }
+        article section p, article section footer{
+            width: 100%;
+        }
+
+        footer{
+            background-color: rgb(205, 205, 205);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Task One</h1>
+    
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <article>
+        <section>
+            <p>this is a flex item.</p>
+            <footer>footer</footer>
+        </section>
+
+        <section>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusantium voluptas tempora architecto quis mollitia quidem maxime? Est, minima deserunt cum adipisci iste, officiis explicabo dolores et dolore quaerat voluptatibus.</p>
+            <footer>footer</footer>
+        </section>
+    </article>
+</body>
+</html>
